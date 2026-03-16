@@ -1,0 +1,44 @@
+aid: openjs-foundation
+name: OpenJS Foundation
+description: >-
+  The OpenJS Foundation is a Linux Foundation project that supports the growth of JavaScript and web technologies through open governance and collaboration. It hosts critical web ecosystem projects including Node.js, jQuery, Electron, webpack, ESLint, and Appium.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - JavaScript
+  - Web
+  - Node.js
+  - Linux Foundation
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/openjs-foundation/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: openjs-foundation:openjs-foundation-api
+    name: OpenJS Foundation API
+    description: >-
+      Programmatic access to OpenJS Foundation project resources, JavaScript ecosystem tools, and web platform APIs.
+    humanURL: https://openjsf.org/projects
+    tags:
+  - JavaScript
+  - Web
+  - Node.js
+  - Linux Foundation
+    properties:
+      - type: Documentation
+        url: https://openjsf.org/projects
+common:
+  - type: Documentation
+    name: OpenJS Foundation Documentation
+    description: Official documentation for OpenJS Foundation.
+    url: https://openjsf.org/projects
+  - type: GitHubOrg
+    name: OpenJS Foundation GitHub
+    description: Source code and repositories for OpenJS Foundation.
+    url: https://github.com/openjs-foundation
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
