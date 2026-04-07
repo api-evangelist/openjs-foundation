@@ -8,9 +8,9 @@ access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - JavaScript
-  - Web
-  - Node.js
   - Linux Foundation
+  - Node.js
+  - Web
 created: '2026-03-16'
 modified: '2026-03-16'
 url: >-
@@ -24,9 +24,9 @@ apis:
     humanURL: https://openjsf.org/projects
     tags:
       - JavaScript
-      - Web
-      - Node.js
       - Linux Foundation
+      - Node.js
+      - Web
     properties:
       - type: Documentation
         url: https://openjsf.org/projects
