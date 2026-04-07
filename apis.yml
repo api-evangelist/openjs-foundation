@@ -23,10 +23,10 @@ apis:
       Programmatic access to OpenJS Foundation project resources, JavaScript ecosystem tools, and web platform APIs.
     humanURL: https://openjsf.org/projects
     tags:
-  - JavaScript
-  - Web
-  - Node.js
-  - Linux Foundation
+      - JavaScript
+      - Web
+      - Node.js
+      - Linux Foundation
     properties:
       - type: Documentation
         url: https://openjsf.org/projects
