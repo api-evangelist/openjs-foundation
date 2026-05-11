@@ -121,6 +121,10 @@ common:
   - type: GitHubOrg
     name: OpenJS Foundation GitHub
     url: https://github.com/openjs-foundation
+  - type: Integrations
+    url: https://openjsf.org/partners
+integrations:
+  - name: Transistor
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
