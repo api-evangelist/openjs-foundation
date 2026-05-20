@@ -112,6 +112,8 @@ apis:
       - type: GitHubRepository
         url: https://github.com/appium/appium
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/openjs-foundation
   - type: Website
     name: OpenJS Foundation
     url: https://openjsf.org/
