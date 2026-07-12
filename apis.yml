@@ -112,6 +112,10 @@ apis:
       - type: GitHubRepository
         url: https://github.com/appium/appium
 common:
+  - type: VulnerabilityDisclosure
+    url: security/openjs-foundation-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/openjs-foundation-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/openjs-foundation
   - type: Website
@@ -125,6 +129,8 @@ common:
     url: https://github.com/openjs-foundation
   - type: Integrations
     url: https://openjsf.org/partners
+  - url: https://openjsf.org/blog/
+    type: Blog
 integrations:
   - name: Transistor
 maintainers:
