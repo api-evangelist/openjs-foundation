@@ -7,9 +7,21 @@ description: >-
   jQuery, Electron, webpack, ESLint, Express, Fastify, LoopBack, Appium,
   Mocha, Jest, and many more.
 type: Index
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openjs-foundation.png
 tags:
   - JavaScript
   - Linux Foundation
@@ -17,7 +29,7 @@ tags:
   - Web
   - API Frameworks
 created: '2026-03-16'
-modified: '2026-04-28'
+modified: '2026-07-25'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/openjs-foundation/refs/heads/main/apis.yml
 specificationVersion: '0.19'
@@ -37,21 +49,6 @@ apis:
         url: https://nodejs.org/en/docs/
       - type: GitHubRepository
         url: https://github.com/nodejs/node
-  - aid: openjs-foundation:express
-    name: Express
-    description: >-
-      Express is a fast, unopinionated, minimalist web framework for Node.js
-      used for building HTTP APIs and web applications.
-    humanURL: https://expressjs.com/
-    tags:
-      - Web Framework
-      - HTTP
-      - APIs
-    properties:
-      - type: Documentation
-        url: https://expressjs.com/en/4x/api.html
-      - type: GitHubRepository
-        url: https://github.com/expressjs/express
   - aid: openjs-foundation:fastify
     name: Fastify
     description: >-
@@ -111,6 +108,21 @@ apis:
         url: https://appium.io/docs/
       - type: GitHubRepository
         url: https://github.com/appium/appium
+  - aid: openjs-foundation:express
+    name: Express
+    description: >-
+      Express is a fast, unopinionated, minimalist web framework for Node.js
+      used for building HTTP APIs and web applications.
+    humanURL: https://expressjs.com/
+    tags:
+      - Web Framework
+      - HTTP
+      - APIs
+    properties:
+      - type: Documentation
+        url: https://expressjs.com/en/4x/api.html
+      - type: GitHubRepository
+        url: https://github.com/expressjs/express
 common:
   - type: VulnerabilityDisclosure
     url: security/openjs-foundation-vulnerability-disclosure.yml
