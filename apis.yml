@@ -43,6 +43,10 @@ apis:
     tags:
       - Runtime
       - JavaScript
+      - Server-Side
+    tags_raw:
+      - Runtime
+      - JavaScript
       - Server-side
     properties:
       - type: Documentation
@@ -56,6 +60,9 @@ apis:
       plugin architecture and built-in JSON Schema validation.
     humanURL: https://fastify.dev/
     tags:
+      - Web Framework
+      - JSON-Schema
+    tags_raw:
       - Web Framework
       - JSON Schema
       - APIs
@@ -87,6 +94,9 @@ apis:
     humanURL: https://www.electronjs.org/
     tags:
       - Desktop
+      - Cross-Platform
+    tags_raw:
+      - Desktop
       - Cross-platform
     properties:
       - type: Documentation
@@ -115,6 +125,9 @@ apis:
       used for building HTTP APIs and web applications.
     humanURL: https://expressjs.com/
     tags:
+      - Web Framework
+      - HTTP
+    tags_raw:
       - Web Framework
       - HTTP
       - APIs
