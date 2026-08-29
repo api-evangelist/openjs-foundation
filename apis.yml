@@ -7,6 +7,17 @@ description: >-
   jQuery, Electron, webpack, ESLint, Express, Fastify, LoopBack, Appium,
   Mocha, Jest, and many more.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
@@ -137,6 +148,16 @@ apis:
       - type: GitHubRepository
         url: https://github.com/expressjs/express
 common:
+  - type: IssueTracker
+    url: https://github.com/nodejs/node/issues
+  - type: Releases
+    url: https://github.com/nodejs/node/releases
+  - type: SecurityPolicy
+    url: https://github.com/nodejs/node/blob/main/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/nodejs/node/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/nodejs/node/blob/main/CONTRIBUTING.md
   - type: VulnerabilityDisclosure
     url: security/openjs-foundation-vulnerability-disclosure.yml
   - type: DomainSecurity
