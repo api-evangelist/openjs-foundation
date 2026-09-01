@@ -54,7 +54,7 @@ apis:
     tags:
       - Runtime
       - JavaScript
-      - Server-side
+      - Server-Side
     tags_raw:
       - Runtime
       - JavaScript
@@ -105,7 +105,7 @@ apis:
     humanURL: https://www.electronjs.org/
     tags:
       - Desktop
-      - Cross-platform
+      - Cross-Platform
     tags_raw:
       - Desktop
       - Cross-platform
