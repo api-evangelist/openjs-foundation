@@ -9,14 +9,21 @@ description: >-
 type: Index
 deliveryModel:
   model: unknown
+  license_evidence:
+    not_product:
+    - appium/appium
+    - electron/electron
+    - expressjs/express
+    - fastify/fastify
+    - loopbackio/loopback-next
   open_source: unknown
   commercial: false
   callable_host: false
   label: Delivery model not determined — needs a product licence on record
   confidence: low
   source:
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
@@ -72,11 +79,12 @@ apis:
     humanURL: https://fastify.dev/
     tags:
       - Web Framework
-      - JSON-Schema
+      - JSON Schema
     tags_raw:
       - Web Framework
       - JSON Schema
       - APIs
+      - JSON-Schema
     properties:
       - type: Documentation
         url: https://fastify.dev/docs/latest/
