@@ -1,4 +1,4 @@
-# OpenJS Foundation (openjs-foundation)
+# OpenJS Foundation
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,69 +66,107 @@
 
 The OpenJS Foundation is a Linux Foundation project that supports the growth of JavaScript and web technologies through open governance and collaboration. It hosts critical web ecosystem projects including Node.js, jQuery, Electron, webpack, ESLint, Express, Fastify, LoopBack, Appium, Mocha, Jest, and many more.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/openjs-foundation/refs/heads/main/apis.yml)
+**Areas:** JavaScript · Linux Foundation · Node.js · Web · API Frameworks
 
-## Scope
+## OpenJS Foundation on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for OpenJS Foundation is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/openjs-foundation/](https://apis.io/providers/openjs-foundation/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (6)
 
-- JavaScript, Linux Foundation, Node.js, Web, API Frameworks
+- [Node.js](https://apis.io/apis/openjs-foundation/nodejs/) — Node.js is a JavaScript runtime built on Chrome's V8 engine that powers server-side applications and tooling across the JavaScript ecosystem.
+- [Fastify](https://apis.io/apis/openjs-foundation/fastify/) — Fastify is a fast, low-overhead web framework for Node.js with a strong plugin architecture and built-in JSON Schema validation.
+- [LoopBack](https://apis.io/apis/openjs-foundation/loopback/) — LoopBack is a highly extensible Node.js and TypeScript framework for building APIs and microservices with built-in OpenAPI support.
+- [Electron](https://apis.io/apis/openjs-foundation/electron/) — Electron is a framework for building cross-platform desktop applications with web technologies (Chromium and Node.js).
+- [Appium](https://apis.io/apis/openjs-foundation/appium/) — Appium is an open source automation framework for native, hybrid, and mobile web applications, exposing a WebDriver-compatible HTTP API.
+- [Express](https://apis.io/apis/openjs-foundation/express/) — Express is a fast, unopinionated, minimalist web framework for Node.js used for building HTTP APIs and web applications.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (2)
 
-### Node.js
+Authentication, trust centre, and vulnerability disclosure.
 
-JavaScript runtime built on V8, powering server-side applications and tooling across the JavaScript ecosystem.
+- [Openjs Foundation Domain Security](https://apis.io/security/openjs-foundation/openjs-foundation-domain-security/)
+- [Openjs Foundation Vulnerability Disclosure](https://apis.io/security/openjs-foundation/openjs-foundation-vulnerability-disclosure/)
 
-- **Human URL:** [https://nodejs.org/](https://nodejs.org/)
-- [Documentation](https://nodejs.org/en/docs/) | [GitHub](https://github.com/nodejs/node)
+#### Plans and pricing (1)
 
+Published plans, tiers and prices.
 
-### Fastify
+- [Openjs Foundation Plans Pricing](https://apis.io/plans/openjs-foundation/openjs-foundation-plans-pricing/)
 
-Fast, low-overhead Node.js web framework with plugin architecture and JSON Schema validation.
+#### Rate limits (1)
 
-- **Human URL:** [https://fastify.dev/](https://fastify.dev/)
-- [Documentation](https://fastify.dev/docs/latest/) | [GitHub](https://github.com/fastify/fastify)
+Published request limits.
 
-### LoopBack
+- [Openjs Foundation Rate Limits](https://apis.io/rate-limits/openjs-foundation/openjs-foundation-rate-limits/)
 
-Extensible Node.js and TypeScript framework for building APIs and microservices with built-in OpenAPI support.
+#### FinOps (1)
 
-- **Human URL:** [https://loopback.io/](https://loopback.io/)
-- [Documentation](https://loopback.io/doc/) | [GitHub](https://github.com/loopbackio/loopback-next)
+What the API costs to run, by operation.
 
-### Electron
+- [Openjs Foundation Finops](https://apis.io/finops/openjs-foundation/openjs-foundation-finops/)
 
-Framework for building cross-platform desktop applications with Chromium and Node.js.
+## Where to find this API
 
-- **Human URL:** [https://www.electronjs.org/](https://www.electronjs.org/)
-- [Documentation](https://www.electronjs.org/docs/latest) | [GitHub](https://github.com/electron/electron)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-### Appium
+- [Website](https://openjsf.org/)
+- [Documentation](https://openjsf.org/projects)
+- [Blog](https://openjsf.org/blog/)
 
-Open source automation framework for native, hybrid, and mobile web apps with a WebDriver-compatible HTTP API.
+## API Evangelist rating
 
-- **Human URL:** [https://appium.io/](https://appium.io/)
-- [Documentation](https://appium.io/docs/) | [GitHub](https://github.com/appium/appium)
+**Kin Score 14.9** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Common Properties
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 7.9 |
 
-| Property | URL |
-|----------|-----|
-| Website | https://openjsf.org/ |
-| Documentation | https://openjsf.org/projects |
-| GitHub | https://github.com/openjs-foundation |
+**Agent readiness 0.6** — human-only
 
-## Maintainers
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-- **Kin Lane** - kin@apievangelist.com
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/openjs-foundation/](https://apis.io/providers/openjs-foundation/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for OpenJS Foundation: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/openjs-foundation/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
